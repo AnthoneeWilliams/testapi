@@ -1,0 +1,15 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "name": "Catch Green"
+    },
+    {
+      "id": 2,
+      "name": "CHARGE"
+    }
+  ],
+  "profile": {
+    "version": 2
+  }
+}
