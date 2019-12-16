@@ -2,7 +2,7 @@
   "devicesList": {
     "listVersion": 1,
     "timestamp": "yyyy-MM-dd HH:mm:ss",
-    "deviceList": [
+    "devicesList": [
       {
         "id": "CPG-3456",
         "name": "Green CATCH Power",
