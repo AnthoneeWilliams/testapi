@@ -9,5 +9,7 @@
       "name": "CHARGE"
     }
   ],
-  "version": 2
+  "version": {
+    "id": 2
+  }
 }
