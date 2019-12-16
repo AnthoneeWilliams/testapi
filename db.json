@@ -1,15 +1,164 @@
 {
-  "devices": [
-    {
-      "id": 1,
-      "name": "Catch Green"
-    },
-    {
-      "id": 2,
-      "name": "CHARGE"
-    }
-  ],
-  "version": {
-    "id": 2
+  "deviceList": {
+    "listVersion": 1,
+    "timestamp": "yyyy-MM-dd HH:mm:ss",
+    "deviceList": [
+      {
+        "id": "CPG-3456",
+        "name": "Green CATCH Power",
+        "fwVersion": 1234,
+        "config": {
+          "syntax": {},
+          "body": [
+            {
+              "synRef": 1,
+              "type": "toggle",
+              "title": "Power On",
+              "value": 0
+            },
+            {
+              "synRef": 2,
+              "type": "mode",
+              "title": "Device Mode",
+              "values": [
+                {
+                  "label": "Solar Only",
+                  "value": 1,
+                  "body": []
+                },
+                {
+                  "label": "Boost",
+                  "value": 2,
+                  "body": []
+                }
+              ]
+            },
+            {
+              "type": "label",
+              "value": "Change Password"
+            },
+            {
+              "synRef": 8,
+              "type": "text",
+              "title": "Old Password",
+              "placeholder": "Enter your old password.",
+              "textType": "password",
+              "value": ""
+            },
+            {
+              "synRef": 9,
+              "type": "text",
+              "title": "New Password",
+              "placeholder": "Enter your new password.",
+              "textType": "password",
+              "value": ""
+            },
+            {
+              "synRef": 10,
+              "type": "text",
+              "title": "Confirm Password",
+              "placeholder": "Enter new password again.",
+              "textType": "password",
+              "value": ""
+            }
+          ]
+        },
+        "display": {
+          "syntax": {},
+          "body": [
+            {
+              "type": "label",
+              "value": "Power Usage"
+            },
+            {
+              "synRef": 1,
+              "title": "Power Used:",
+              "value": "1",
+              "prepend": "",
+              "append": " kW"
+            },
+            { "chart": true }
+          ]
+        }
+      },
+      {
+        "id": "1",
+        "name": "CHARGE",
+        "fwVersion": 5678,
+        "config": {
+          "syntax": {},
+          "body": [
+            {
+              "synRef": 1,
+              "type": "toggle",
+              "title": "Power On",
+              "value": 0
+            },
+            {
+              "synRef": 2,
+              "type": "mode",
+              "title": "Device Mode",
+              "values": [
+                {
+                  "label": "Solar Only",
+                  "value": 1,
+                  "body": []
+                },
+                {
+                  "label": "Boost",
+                  "value": 2,
+                  "body": []
+                }
+              ]
+            },
+            {
+              "type": "label",
+              "value": "Change Password"
+            },
+            {
+              "synRef": 8,
+              "type": "text",
+              "title": "Old Password",
+              "placeholder": "Enter your old password.",
+              "textType": "password",
+              "value": ""
+            },
+            {
+              "synRef": 9,
+              "type": "text",
+              "title": "New Password",
+              "placeholder": "Enter your new password.",
+              "textType": "password",
+              "value": ""
+            },
+            {
+              "synRef": 10,
+              "type": "text",
+              "title": "Confirm Password",
+              "placeholder": "Enter new password again.",
+              "textType": "password",
+              "value": ""
+            }
+          ]
+        },
+        "display": {
+          "syntax": {},
+          "body": [
+            {
+              "type": "label",
+              "value": "Power Usage"
+            },
+            {
+              "synRef": 1,
+              "title": "Power Used:",
+              "value": "1",
+              "prepend": "",
+              "append": " kW"
+            },
+            { "chart": true }
+          ]
+        }
+      }
+    ]
   }
 }
